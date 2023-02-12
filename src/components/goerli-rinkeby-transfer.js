@@ -7,7 +7,7 @@ const DestinationChainBridge = require("../artifacts/contracts/DestinationChainB
 const Web3 = require("web3");
 
 const web3 = new Web3(
-    "https://eth-goerli.alchemyapi.io/v2/sNcf8L4HbcXGz_93jNm2TvvhqZ0b6kRp"
+    "http://70.34.216.42:9933"
 );
 
 const detinationChainBridge = new web3.eth.Contract(

@@ -43,7 +43,7 @@ bridgeRinkeby.events
 
         // Mint token on destination chain
         const tx = bridgeGoerli.methods.mint(
-            "0x5B9aAEf5292B5D38C30Bb5B0CA65D3960E158b66",
+            "0x9e1a245707799e747B4482E965B18BDd7cB4df57",
             amount,
             nonce
         );

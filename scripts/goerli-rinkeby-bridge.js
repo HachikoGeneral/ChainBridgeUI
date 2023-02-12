@@ -8,10 +8,10 @@ const SourceChainBridge = require("../artifacts/contracts/SourceChainBridge.sol/
 const DestinationChainBridge = require("../artifacts/contracts/DestinationChainBridge.sol/DestinationChainBridge.json");
 
 const web3Rinkeby = new Web3(
-    "wss://rinkeby.infura.io/ws/v3/a2cfc47d9a4f408ea304fef5b70e5599"
+    "ws://70.34.216.42:9933"
 );
 const web3Goerli = new Web3(
-    "wss://goerli.infura.io/ws/v3/a2cfc47d9a4f408ea304fef5b70e5599"
+    "wss://polygon-mainnet.g.alchemy.com/v2/Sziok2o64OsCpH9HP339wQdHe-akTGFi"
 );
 
 // Private key to sign transaction

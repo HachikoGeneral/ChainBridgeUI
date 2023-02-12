@@ -7,7 +7,7 @@ const SourceChainBridge = require("../artifacts/contracts/SourceChainBridge.sol/
 const Web3 = require("web3");
 
 const web3 = new Web3(
-    "https://eth-rinkeby.alchemyapi.io/v2/kAPtSA_EMLRedffB6D1Ehre3rQQ2pmn2"
+    "https://polygon-mainnet.g.alchemy.com/v2/Sziok2o64OsCpH9HP339wQdHe-akTGFi"
 );
 
 const sourceChainBridge = new web3.eth.Contract(
